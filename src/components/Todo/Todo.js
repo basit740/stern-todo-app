@@ -1,4 +1,5 @@
 import './Todo.css';
+
 function Todo(props) {
 	return (
 		<div className='todo'>
@@ -13,6 +14,6 @@ function Todo(props) {
 
 export default Todo;
 
-// export function Test() {
+// export function Test(title,status) {
 // 	return <div>Test</div>;
 // }
